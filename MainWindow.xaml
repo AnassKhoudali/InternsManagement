@@ -1,0 +1,152 @@
+﻿<Window x:Class="ProjetExamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetExamen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Programmes">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="150"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+
+                    </Grid.RowDefinitions>
+
+                    <TextBlock FontSize="18"
+                               Grid.Row="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="102,10,102.6,25.2">
+                        <Bold>La gestion des programmes</Bold>
+                    </TextBlock>
+                    <TextBlock Text="Numéro :" Grid.Column="0" Grid.Row="1" Margin="20,19.8,74.4,19.6"/>
+                    <TextBlock Text="Nom :" Grid.Column="0" Grid.Row="2" Margin="20,19.8,74.4,19.6"/>
+                    <TextBlock Text="Durée :" Grid.Column="0" Grid.Row="3" Margin="20,19.8,74.4,19.6"/>
+                    <TextBlock Text="mois" Grid.Column="3" Grid.Row="3" Margin="1,19.8,74.4,19.6" FontWeight="Bold"/>
+
+                    <TextBox x:Name="txtNumeroDuProgramme" Grid.Column="1" Grid.Row="1" Width="100" Height="20" TextChanged="textChangedNumeroDuProgramme"/>
+                    <TextBox x:Name="txtNomDuProgramme" Grid.Column="1" Grid.Row="2" Width="150" Height="20" TextChanged="textChangedNomDuProgramme"/>
+                    <TextBox x:Name="txtDureeDuProgramme" Grid.Column="1" Grid.Row="3" Width="100" Height="20" TextChanged="textChangedDureeDuProgramme"/>
+
+                    <Button x:Name="btnAjouterProgramme" Content="Ajouter" Grid.Column="0" Grid.Row="4" Height="30" Width="60" Click="btnAjouterProgramme_Click"/>
+                    <Button x:Name="btnSupprimerProgramme" Content="Supprimer" Grid.Column="1" Grid.Row="4" Height="30" Width="60" Click="btnSupprimerProgramme_Click"/>
+                    <Button x:Name="btnEffacerProgramme" Content="Effacer" Grid.Column="2" Grid.Row="4" Height="30" Width="60" Click="btnEffacerProgramme_Click"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Stagiaires">
+                <!-- Définition de ma grille -->
+                <Grid Background="#DCDCDC">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="27.6"/>
+                        <ColumnDefinition Width="122.4"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="95"/>
+
+                    </Grid.RowDefinitions>
+
+                    <!-- Définition des TextBlock Stagiaires -->
+                    <TextBlock FontSize="18" Margin="0,0,87,5.4" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="201"><Bold>La gestion des stagiaires</Bold>
+                    </TextBlock>
+                    <TextBlock Text="Informations sur la stagiaires" Grid.Column="0" Grid.ColumnSpan="3" Margin="20,30,0,19.6" Grid.RowSpan="3"/>
+                    <TextBlock Text="Numéro:" Grid.Column="1" Grid.Row="2" Margin="2.4,0.4,0,19.6" Grid.RowSpan="2"/>
+                    <TextBlock Grid.Column="1" Grid.Row="3" Margin="2.4,0.4,0,19.6" Text="Nom:" Grid.RowSpan="2"/>
+                    <TextBlock Text="Prénom:" Grid.Column="1" Grid.Row="4" Margin="2.4,0.4,0,19.6" Grid.RowSpan="2"/>
+                    <TextBlock Text="Date de naissance" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2" Margin="2.4,0.4,0,79.6" Grid.RowSpan="2"/>
+                    <TextBlock Text="Programme" Grid.Column="1" Grid.Row="7" Margin="48.4,4.4,10,0" Height="18" VerticalAlignment="Top"/>
+
+                    <!-- Définition des TextBox, DatePicker et ComboBox Stagiaires -->
+                    <TextBox x:Name="txtNumeroDuStagiaire" Grid.Column="2" Grid.Row="2" Width="100" Height="15" HorizontalAlignment="Left" Margin="0,2.4,0,2.6" TextChanged="textChangedNumeroDuStagiaire"/>
+                    <TextBox x:Name="txtNomDuStagiaire" Grid.Column="2" Grid.Row="3" Width="100" Height="15" HorizontalAlignment="Left" Margin="0,2.4,0,2.6" TextChanged="textChangedNomDuStagiaire"/>
+                    <TextBox x:Name="txtPrenomDuStagiaire" Grid.Column="2" Grid.Row="4" Width="100" Height="15" HorizontalAlignment="Left" Margin="0,2.4,0,2.6" TextChanged="textChangedPrenomDuStagiaire"/>
+                    <DatePicker x:Name="DPdateDeNaissanceDuStagiaire" Grid.Column="2" Grid.Row="5" SelectedDateFormat="Long" Width="150" Grid.RowSpan="3" BorderThickness="0" HorizontalAlignment="Left" Margin="0,0.4,0,29.6"/>
+                    <ComboBox x:Name="cbxNomDuProgramme" Grid.Column="2" Grid.Row="7" Height="25" Width="200" Margin="26,5.4,84,1.5" Background="White"/>
+
+
+                    <!-- Fonction pour le choix de sexe -->
+                    <GroupBox Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalAlignment="Center" 
+                              Background="LightGray" BorderBrush="Black" Margin="28.4,19.4,55,20.6" Height="60">
+                        <GroupBox.Header>
+                            <TextBlock Text="Sexe"/>
+                        </GroupBox.Header>
+                        <StackPanel Orientation="Horizontal" Margin="50,5,50,0">
+                            <RadioButton x:Name="rbMasculin" Margin="0,0,20,0">Masculin</RadioButton>
+                            <RadioButton x:Name="rbFeminin" Margin="0,0,20,0">Féminin</RadioButton>
+                            <RadioButton x:Name="rbAutre" >Autre</RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <!-- Définition des commandes -->
+                    <GroupBox Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="3" Margin="29.4,0.4,65,39.8" HorizontalAlignment="Center" 
+                              Background="LightGray" BorderBrush="Black" Height="55">
+                        <GroupBox.Header>
+                            <TextBlock Text="Commandes" />
+                        </GroupBox.Header>
+                        <StackPanel  Margin="4" Orientation="Horizontal">
+                            <Button x:Name="btnAjouterStagiaire" Padding="3" Content="Ajouter" Margin="30,0,50,0" Click="btnAjouterStagiaire_Click"/>
+                            <Button x:Name="btnSupprimerStagiaire" Padding="3" Content="Supprimer" Margin="0,0,50,0" Click="btnSupprimerStagiaire_Click"/>
+                            <Button x:Name="btnEffcerStagiaire" Padding="3" Content="Effacer" Margin="0,0,30,0" Click="btnEffacerStagiaire_Click"/>
+                        </StackPanel>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+
+            <!--Consulter -->
+            <TabItem Header="Consulter">
+                <Grid Background="Gray">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock FontSize="18" Margin="10,5,10,0"  Grid.ColumnSpan="3" 
+                    HorizontalAlignment="Center"><Bold>La liste des stagiaires par programmes</Bold>
+                    </TextBlock>
+
+                    <GroupBox Header = "Infos de recherches" Grid.Row="1"
+                              Grid.ColumnSpan="3" Margin="25,5,18.6,10">
+                        <StackPanel Margin="10" Orientation="Horizontal">
+                            <TextBlock Text="Numéro du Programme:" Margin="0,3,0,9" />
+                            <ComboBox x:Name="cbxNumeroDuProgramme" Height="25" Width="100" Margin="30,3,0,9" Background="White"></ComboBox>
+                            <Button Content="Rechercher" x:Name="btnRechercher"  Width="80" Height="30" Margin="25,3,0,9.4" Click="btnRechercher_Click"/>
+                        </StackPanel>
+                    </GroupBox>
+                    <DataGrid x:Name="DataGridListeDesStagiares" Grid.Column="0" Height="140" Margin="10,10.2,10,0" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="3">
+
+                    </DataGrid>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

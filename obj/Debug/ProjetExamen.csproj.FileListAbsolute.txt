@@ -1,0 +1,45 @@
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.exe.config
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.exe
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.pdb
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.AssemblyReference.cache
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\MainWindow.g.cs
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\App.g.cs
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.cache
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.lref
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\MainWindow.baml
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.g.resources
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.Properties.Resources.resources
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.GenerateResource.cache
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.CoreCompileInputs.cache
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.exe
+C:\Users\marc4\Desktop\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.pdb
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.exe.config
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.exe
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\bin\Debug\ProjetExamen.pdb
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.AssemblyReference.cache
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\MainWindow.g.cs
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\App.g.cs
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.cache
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.lref
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\MainWindow.baml
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.g.resources
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.Properties.Resources.resources
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.GenerateResource.cache
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.csproj.CoreCompileInputs.cache
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.exe
+C:\Users\anas\Desktop\cours\semestre 3(autumne2021)\developpementApplicationBureau\exams\projet\ProjetExam\ProjetExamen\obj\Debug\ProjetExamen.pdb
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\bin\Debug\ProjetExamen.exe.config
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\bin\Debug\ProjetExamen.exe
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\bin\Debug\ProjetExamen.pdb
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.csproj.AssemblyReference.cache
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\MainWindow.g.cs
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\App.g.cs
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.cache
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen_MarkupCompile.lref
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\MainWindow.baml
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.g.resources
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.Properties.Resources.resources
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.csproj.GenerateResource.cache
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.csproj.CoreCompileInputs.cache
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.exe
+C:\Users\anas\Downloads\myProjects\projetExamen3\ProjetExamen\obj\Debug\ProjetExamen.pdb
